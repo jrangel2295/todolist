@@ -12,7 +12,6 @@ const TodoInput = (props) => {
               value={props.todo}>
              </input>
           <button onClick={props.handleClick}>Add</button>
-          <button onClick={props.handleClickMe}>Remove</button>
           </section>
   )
 }
